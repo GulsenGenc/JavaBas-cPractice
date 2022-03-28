@@ -1,5 +1,7 @@
 package Day05;
 
+import java.util.Scanner;
+
 public class Intance_Variables {
     /*
      * - Main method icerisinde bir ogrenciye ait variable’lar olusturun ve bu
@@ -20,4 +22,32 @@ public class Intance_Variables {
      */
 
 
+    public static void main(String[] args) {
+        String isim="Ali";
+        String soyisim="Genç";
+        String telNo="038736363737";
+
+
+        isimDegistir(isim);
+        System.out.println(isim);
+       soyisim= soyisimDegıstır(soyisim);
+        System.out.println("isim :"+ "yeni soyisim :"+soyisim);
+
+
+    }
+
+    private static String soyisimDegıstır(String soyisim) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("yenı soyisminizi giriniz");
+        String yenıSoyısım=scan.nextLine();
+
+        return yenıSoyısım;
+    }
+
+    public static void isimDegistir(String isim) {
+
+        isim="gülşen";
+
+      System.out.println("isim :"+isim);
+    }
 }
