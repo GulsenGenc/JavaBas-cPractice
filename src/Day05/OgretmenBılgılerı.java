@@ -7,7 +7,10 @@ public class OgretmenBılgılerı {
     int yas;
     String brans;
     String tel;
-     /* OgretmenBilgileri  Class’i olusturun bu Class’da bir Ogretmen icin gerekli
+
+
+
+    /* OgretmenBilgileri  Class’i olusturun bu Class’da bir Ogretmen icin gerekli
      * bilgileri girebilecegim Instance Variable’lar olusturun
      * ve main method icinde bu variable’lara deger atayin (variable lar buasamada static olmali..)
      * ve yazdirin

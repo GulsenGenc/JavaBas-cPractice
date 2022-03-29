@@ -28,26 +28,32 @@ public class Intance_Variables {
         String telNo="038736363737";
 
 
-        isimDegistir(isim);
-        System.out.println(isim);
+        isimDegistir(isim,soyisim,telNo);
+        System.out.println(isim+" "+soyisim+" "+telNo);//Ahmet TUNCER 5436272728
        soyisim= soyisimDegıstır(soyisim);
-        System.out.println("isim :"+ "yeni soyisim :"+soyisim);
+        System.out.println(soyisim);//genç
+        System.out.println("isim : "+isim +" yeni soyisim :"+soyisim);//isim : Ali yeni soyisim :genç
+
 
 
     }
 
     private static String soyisimDegıstır(String soyisim) {
         Scanner scan=new Scanner(System.in);
-        System.out.println("yenı soyisminizi giriniz");
-        String yenıSoyısım=scan.nextLine();
+        System.out.println("yenı soyisminizi giriniz : ");
+        String yenıSoyIsım=scan.nextLine();
 
-        return yenıSoyısım;
+        soyisim=yenıSoyIsım;
+        return yenıSoyIsım;
     }
 
-    public static void isimDegistir(String isim) {
+    private static void isimDegistir(String isim, String soyisim, String telNo) {
+        isim="Ahmet";
+        soyisim="TUNCER";
+        telNo="5436272728";
 
-        isim="gülşen";
+        System.out.println(isim+" "+soyisim+" "+telNo);
 
-      System.out.println("isim :"+isim);
     }
+
 }
