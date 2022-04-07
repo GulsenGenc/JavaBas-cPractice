@@ -1,4 +1,4 @@
-package day06;
+package Day06;
 
 import java.time.LocalDateTime;
 import java.time.Period;

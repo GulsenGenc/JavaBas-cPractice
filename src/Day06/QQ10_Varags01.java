@@ -1,6 +1,4 @@
-package day06;
-
-import com.sun.source.tree.WhileLoopTree;
+package Day06;
 
 import java.util.Scanner;
 

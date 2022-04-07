@@ -1,4 +1,4 @@
-package day06;
+package Day06;
 
 public class QQ2_ForEach02 {
     public static void main(String[] args) {

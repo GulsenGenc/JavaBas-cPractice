@@ -1,4 +1,4 @@
-package day06;
+package Day06;
 
 public class QQ1_ForEach01 {
 
